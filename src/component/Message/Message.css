@@ -1,0 +1,43 @@
+/* styles for Message.jsx */
+.messages{
+    height: calc(100% - 80px);
+    border-bottom: 1px solid rgb(227, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    overflow-y: scroll;
+    color: rgb(46, 46, 46);
+}
+.msg{
+    width: auto;
+    max-width: 60%;
+    padding: 8px;
+    height: 20px;
+    margin: 5px;
+    font-size: 12px;
+    background-color: rgb(212, 212, 212);
+    border-radius: 10px 0px 10px 10px;
+
+}
+.left{
+    align-self: flex-start;
+    border-radius: 0px 10px 10px 10px;
+    background-color: whitesmoke;
+
+}
+.messages::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .messages::-webkit-scrollbar-track {
+    background: rgb(227, 226, 226);
+  }
+  
+  .messages::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+  }
+  
+  .messages::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.5);
+  }

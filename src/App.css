@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+.openChatBtn{
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+  background-color: rgb(8, 233, 8); 
+  color: white;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 12px 2px rgba(173,173,173,1);
+  -moz-box-shadow: 5px 5px 12px 2px rgba(173,173,173,1);
+  box-shadow: 5px 5px 12px 2px rgba(173,173,173,1);
+}
+.openChatBtn:hover{
+  background-color: rgb(255, 84, 22);
+}
+.chatBoxes{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 30px;
+}
+

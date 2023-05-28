@@ -1,0 +1,58 @@
+/* styeles for Chatbox.jsx */
+.chatBox{
+    text-align: center;
+}
+.chatWindow{
+    overflow: hidden;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 8px;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 5px 5px 12px 2px rgba(173,173,173,1);
+    -moz-box-shadow: 5px 5px 12px 2px rgba(173,173,173,1);
+    box-shadow: 5px 5px 12px 2px rgba(173,173,173,1);
+}
+.nav{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+    height: 40px;
+    background-color: rgba(28, 0, 98, 0.804);
+}
+.closeBtn{
+    cursor: pointer;
+}
+.closeBtn:hover{
+    color: red;
+}
+.inputSection{
+    height: 40px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#input{
+    width:70%;
+    height: 15px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 10px;
+    border-radius: 6px;
+}
+.sendBtn{
+    border: none;
+    padding: 8px;
+    background-color: wheat;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 6px;
+}
+.sendBtn:hover{
+    background-color: rgb(255, 209, 124);
+}
